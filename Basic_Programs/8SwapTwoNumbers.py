@@ -1,2 +1,8 @@
-Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+# rite a Python program to swap two variables without using a temporary variable.
+a = int( input("Enter A Number : ") )
+b = int( input("Enter B Number : ") )
+a = a+b
+b = a-b
+a = a-b
+print("A = ",a)
+print("B = ",b)
