@@ -1,2 +1,4 @@
-Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+# 10.	Write a program that reads an integer and prints its multiplication table.
+num = int( input("Enter A Number : ") )
+for i in range(1,11):
+    print(num*i)
