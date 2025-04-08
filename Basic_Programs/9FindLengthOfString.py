@@ -1,2 +1,3 @@
-Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+# 9.	Write a Python program to find the length of a string.
+string = input("Enter A String : ")
+print("Length of String is : ",len(string))
